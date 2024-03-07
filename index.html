@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="contents">
+
+        <div id="header">
+            <h1>My portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#profile">プロフィール</a></li>
+                    <li><a href="#works">制作実績</a></li>
+                    <li><a href="#">Menu Item 3</a></li>
+                    <li><a href="#">Menu Item 4</a></li>
+                </ul>
+            </nav>
+        </div><!--header-->
+
+        <div id="profile">
+            <div class="left-half">
+                <div class="image-container">
+                    <img src="./images/profile.jpg" alt="profile" class="img_profile">
+                </div>
+            </div>
+            
+            <div class="right-half">
+                <h5 class="ruby">たけざわ けい</h5>
+                <h1 class="my_name">竹澤 慧 a.k.a. あると</h1>
+                <p>2003年3月19日生まれ。出身は青森県弘前市。</p>
+                <p>HAL東京 IT学部 高度情報処理学科 高度情報処理コース（在学中）</p>
+                <p>高校生時代に初めてプログラミングに触れ、様々な資格を取得しつつさらに高度な技術を身に着けるために上京。</p>
+                <p>上京後には自分の技術の向上の傍ら、モノづくりの楽しさを子供たちへ広げるべくプログラミング教室メンターとしてデビュー。</p>
+                <p>あだ名「あると」として、現在も子供たちへモノづくりの楽しさを広げる授業を新宿教室を中心に行っている。</p>
+                <p>あだ名の由来としては、altキーからひらがな読みをし「おると」→「あると」といった形である。</p>
+                <p>趣味は作品作りとコーディング。（どっちかというとサーバー処理に力を入れている。デザイン苦手）</p>
+                <p>即興のアイディアから作品を作ることがよくあるので、そこでいかに効率よく作品作りができるのか。をよく考えながら制作している。</p>
+                <p>また、最近はChargeSPOTのラウンダーとして様々な設置店への機器メンテナンス・バッテリー補充活動をしている。</p>
+            </div>
+        </div>
+
+        <div id="works">
+            <div class="portfolio-container">
+                <h1 class="works_title">これまでの制作実績（画像をクリックすることでGitHubに飛ぶことができます）</h1>
+                <div class="portfolio-row">
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">2段階認証タイムカード「ANCHOR」</h5>
+                        <p class="portfolio-description">3年次就職作品プレゼンテーション・HEW制作作品。<br>0から企画だしを行い作り出した作品。<br>使用言語・技術：Python（Flask）SMS送信：Twilio <br>DB操作：MySQL</p>
+                        <a href="https://github.com/K1zuna-net/timecard-anchor" target="_blank"><img src="./images/work1.png" alt="2段階認証タイムカード「ANCHOR」" class="portfolio-image"></a>
+                    </section>
+                    
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">コスメ特化型ECサイト「Kharis」</h5>
+                        <p class="portfolio-description">2年次HEWのグループ制作作品。<br>主にサーバーサイド側（特にDB処理）を担当。<br>使用言語：PHP・jQuery Ripples <br>DB操作：MySQL</p>
+                        <a href="https://github.com/K1zuna-net/kharis-shop" target="_blank"><img src="./images/work2.png" alt="コスメ・化粧品ECサイト「Kharis」" class="portfolio-image"></a>
+                    </section>
+            
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">2段階認証タイムカード「ANCHOR」</h5>
+                        <p class="portfolio-description">就職作品プレゼンテーション・HEW制作作品。<br>0から企画だしを行い作り出した作品。</p>
+                        <a href="https://github.com/K1zuna-net/timecard-anchor" target="_blank"><img src="./images/work1.png" alt="作品1の画像" class="portfolio-image"></a>
+                    </section>
+                </div>
+            
+                <!--<div class="portfolio-row">
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">2段階認証タイムカード「ANCHOR」</h5>
+                        <p class="portfolio-description">就職作品プレゼンテーション・HEW制作作品。<br>0から企画だしを行い作り出した作品。</p>
+                        <a href="https://github.com/K1zuna-net/timecard-anchor" target="_blank"><img src="./images/work1.png" alt="作品1の画像" class="portfolio-image"></a>
+                    </section>
+                    
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">2段階認証タイムカード「ANCHOR」</h5>
+                        <p class="portfolio-description">就職作品プレゼンテーション・HEW制作作品。<br>0から企画だしを行い作り出した作品。</p>
+                        <a href="https://github.com/K1zuna-net/timecard-anchor" target="_blank"><img src="./images/work1.png" alt="作品1の画像" class="portfolio-image"></a>
+                    </section>
+            
+                    <section class="portfolio-section">
+                        <h5 class="portfolio-title">2段階認証タイムカード「ANCHOR」</h5>
+                        <p class="portfolio-description">就職作品プレゼンテーション・HEW制作作品。<br>0から企画だしを行い作り出した作品。</p>
+                        <a href="https://github.com/K1zuna-net/timecard-anchor" target="_blank"><img src="./images/work1.png" alt="作品1の画像" class="portfolio-image"></a>
+                    </section>
+                </div>
+            </div>
+        -->
+        </div>
+    </div><!--contents-->
+</body>
+</html>
+
